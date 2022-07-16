@@ -7,23 +7,23 @@
     <title>Digital Clock</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
+  <body onload="updateClock()">
     <h2>Digital Clock</h2>
     <div class="clock">
         <div>
-            <span class="hour">00</span>
+            <span id="hour">00</span>
             <span class="text">Hour</span>
         </div>
         <div>
-            <span class="minute">00</span>
+            <span id="minute">00</span>
             <span class="text">Minute</span>
         </div>
         <div>
-            <span class="seconds">00</span>
+            <span id="seconds">00</span>
             <span class="text">Seconds</span>
         </div>
-        <div style="align-self: center;">
-            <span class="ampm text">AM</span>
+        <div id="ampm-div">
+            <span id="ampm">AM</span>
         </div>
     </div>
 	<script src="./app.js"></script>

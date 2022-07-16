@@ -10,6 +10,11 @@ body{
     align-items: center;
     background: url("https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80");
     font-family: sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    overflow: hidden;
 }
 
 h2{
@@ -46,4 +51,17 @@ h2{
     height: 30px;
     font-size: 15px;
     opacity: .7;
+}
+
+
+#ampm-div{
+    display: flex;
+    align-items: flex-end;
+
+}
+#ampm{
+    background-color: green;
+    width: 80px;
+    height: 40px;
+    font-size:14px;
 }
